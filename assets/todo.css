@@ -1,0 +1,115 @@
+/* nanoscrollbar */
+.nano .pane   { background: #888; }
+.nano .slider { background: #111; }
+
+body {/* Override bootstrap properties */
+    background-color: #061F3E !important;
+    border: 0 !important;
+}
+
+#container{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+#header{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.task-list{
+    width: 31%;
+    float: left;
+    margin: 15px 5px;
+    background-color: #2175BF;
+    min-height: 240px;
+    border-radius: 2px;
+    padding-bottom: 15px;
+}
+
+.task-list input, .task-list textarea{
+    width: 240px;
+    margin: 1px 5px;
+    border-radius: 1px;
+}
+
+.task-list input{
+    height: 30px;
+    border-radius: 1px;
+}
+
+.todo-task{
+    border-radius: 1px;
+    background-color: #fff;
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.task-list input[type="button"]{
+    width: 120px;
+    margin: 5px;
+    background-color: #00adef!important;
+    background-image:none!important;
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.task-list input[type="button"]:hover{
+    width: 120px;
+    margin: 5px;
+    background-color: #061F3E!important;
+    background-image:none!important;
+    border: 1px solid white;
+    color: white;
+}
+
+.todo-task > .task-header{
+    font-weight: bold;
+}
+
+.todo-task > .task-date{
+    font-size: small;
+    font-style: italic;
+}
+
+.todo-task > .task-description{
+    font-size: smaller;
+}
+
+h3{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+#delete-div{
+    display: none;
+    background-color: #fff;
+    border: 3px dotted #000;
+    margin: 10px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.task-list.addTask {
+    width: 95%;
+    margin-left: 5px;
+    text-align: center;
+}
+.overlimit{
+    color: red!important;
+    font-weight: bold;
+}
+#text_counter{
+    color:white;
+}
